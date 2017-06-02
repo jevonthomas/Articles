@@ -1,0 +1,60 @@
+body {
+	background-color: #0F072B;
+	font-family: "open sans", arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: white;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Merienda One', cursive;
+}
+
+header h2 {
+	font-family: 'Rancho', cursive;
+}
+
+article {
+	background-color: #FFF1D1;
+	color: #0F072B;
+	padding: 1.2em;
+	margin: 1.2em;
+}
+
+article:nth-of-type(1) {
+	border-radius: 20px;
+}
+
+article:nth-of-type(2) {
+	border-radius: 40px;
+}
+
+article:nth-of-type(3) {
+	border-radius: 50px;
+}
+
+article:nth-of-type(4) {
+	border-radius: 70px;
+}
+
+article:nth-of-type(5) {
+	border-radius: 90px;
+}
+
+section {
+	padding: 0.5em;
+}
+
+footer {
+	font-weight: bolder;
+	padding: 1.2em;
+}
+
+footer author, footer date {
+	display: block;
+}
+
+body > footer {
+	text-align: center;
+}
